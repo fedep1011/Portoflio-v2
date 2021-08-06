@@ -7,7 +7,7 @@ h1{
     text-align: center;
     font-size: 500%;
     color: darkred;
-    font: bold;
+    font-style: oblique;
 }
 h2{
     font-size: smaller;
@@ -15,42 +15,29 @@ h2{
     text-align: right;
 }
 
-#img1{
-    width: 250px;
-    margin-left:20%;
-    margin-right: 20%;
-    margin-top: 30px;}
-#img3{
-        width: 250px;
-        margin-left:20%;
-        margin-right: 20%;
-        margin-top: 30px;}
-#img2{
-            width: 250px;
-            margin-left:20%;
-            margin-right: 20%;
-            margin-top: 30px;
+img.izquierda {
+    float: left;
+
+  }
+  div.reset {
+    clear: both;
+  }
+  
+  img{
+      padding-left: 125px ;
+      padding-right: 20px;
+      width: 150px;
+      height: 150px;
+      padding-bottom: 80px;
+  }
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    text-indent: 20px;
+    margin-left: 40px;
+    margin-right: 7cm;
+    text-align: right;
+    float:right;
+    border-style:outset;    
 }
-h3{
-    color: darkslateblue;
-    text-align: left;
-    font-size: large;
-    margin-bottom: 10px;
-    border: 5px dotted seagreen;
-    display: inline-table;}
-
-h4{
-    color: darkslateblue;
-    text-align: left;
-    font-size: large;
-    margin-bottom: 10px;
-    border: 5px dotted seagreen;
-    display: inline-table;}
-
-h5{
-    color: darkslateblue;
-    text-align: left;
-    font-size: large;
-    margin-bottom: 10px;
-    border: 5px dotted seagreen;
-    display: inline-table;}
